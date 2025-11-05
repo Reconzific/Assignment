@@ -28,6 +28,16 @@
       width: 120px;
       margin-bottom: 20px;
     }
+    table {
+      width: 60%;
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
     .btn {
       display: inline-block;
       background-color: #24292e;
@@ -48,9 +58,7 @@
       font-size: 14px;
       color: #777;
     }
-    ul {
-      text-align: left;
-    }
+    ul { text-align: left; }
   </style>
 </head>
 <body>
@@ -60,6 +68,8 @@
 
     <h1>Java & Web Programming Assignment</h1>
     <h2>Submitted by: Yuvraj Sharma</h2>
+
+    <p><strong>Student ID:</strong> <code>IMS23BCAXXX</code></p>
     <p><strong>Course:</strong> BCA Final Year, IMS Noida</p>
     <p><strong>Subject:</strong> Java Programming and Dynamic Webpage Design</p>
 
@@ -67,10 +77,29 @@
 
     <h3>About This Assignment</h3>
     <p>
-      This assignment includes solutions to Java and Web programming concepts such as Core Java, 
-      AWT, Networking (Client-Server), JDBC connectivity, and HTML-based webpage design. 
-      The complete project source code is hosted on my GitHub repository.
+      This assignment demonstrates concepts of <b>Java Programming</b> and <i>Dynamic Webpage Design</i>.<br>
+      It includes topics such as AWT, Networking, JDBC, and HTML structure.
     </p>
+
+    <hr>
+
+    <h3>My Subjects</h3>
+    <table>
+      <tr><th>Subject Name</th></tr>
+      <tr><td>Java Programming</td></tr>
+      <tr><td>Database Management Systems</td></tr>
+      <tr><td>Computer Networks</td></tr>
+    </table>
+
+    <hr>
+
+    <h3>Submit Your Username</h3>
+    <form>
+      <input type="text" placeholder="Enter Username" required>
+      <input type="submit" value="Submit">
+    </form>
+
+    <br>
 
     <a href="https://github.com/Reconzific/Assignment" target="_blank" class="btn">
       💻 View My GitHub Repository
@@ -93,4 +122,3 @@
   </div>
 </body>
 </html>
-
